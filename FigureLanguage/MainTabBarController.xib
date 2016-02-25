@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tabBarController id="naa-g2-pSD" customClass="MainTabBarController" customModule="FigureLanguage" customModuleProvider="target">
+            <nil key="simulatedBottomBarMetrics"/>
+            <tabBar key="tabBar" contentMode="scaleToFill" id="5eW-Tr-qd4">
+                <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            </tabBar>
+            <viewControllers>
+                <viewController id="Uor-nk-oEr">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ozt-jS-uj5"/>
+                        <viewControllerLayoutGuide type="bottom" id="13C-7s-nlJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z4a-cf-Glh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="首页" image="MainPage" id="UJy-Qf-88c"/>
+                </viewController>
+                <viewController id="Fyq-mU-MGm">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="txK-TR-vV1"/>
+                        <viewControllerLayoutGuide type="bottom" id="a5f-uW-KwJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="krq-qS-Rqx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="文档" image="message" id="aW7-3c-Qfr"/>
+                </viewController>
+                <viewController id="EC6-dI-PCg">
+                    <tabBarItem key="tabBarItem" tag="2" title="发现" image="discover" id="fbx-6d-xn2"/>
+                </viewController>
+                <viewController id="rrh-yC-yZd" userLabel="本地">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8pB-QI-7FS"/>
+                        <viewControllerLayoutGuide type="bottom" id="WDe-60-FTz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NQf-hm-C6q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="3" title="图片" image="picture" id="mZp-KF-T4T"/>
+                </viewController>
+            </viewControllers>
+            <point key="canvasLocation" x="486" y="345"/>
+        </tabBarController>
+    </objects>
+    <resources>
+        <image name="MainPage" width="25" height="27"/>
+        <image name="discover" width="25" height="24"/>
+        <image name="message" width="25" height="23"/>
+        <image name="picture" width="25" height="25"/>
+    </resources>
+</document>

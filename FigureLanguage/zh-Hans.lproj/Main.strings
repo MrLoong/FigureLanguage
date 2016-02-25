@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "5AM-rn-RXF"; */
+"5AM-rn-RXF.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "解析"; ObjectID = "CE4-ES-5ih"; */
+"CE4-ES-5ih.normalTitle" = "解析";
+
+/* Class = "UILabel"; text = "Multi-line Title"; ObjectID = "D7F-o5-Ihj"; */
+"D7F-o5-Ihj.text" = "Multi-line Title";
+
+/* Class = "UILabel"; text = "Multi-line Content"; ObjectID = "T7R-0C-VeF"; */
+"T7R-0C-VeF.text" = "Multi-line Content";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "mcm-t1-lLW"; */
+"mcm-t1-lLW.text" = "Username";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "tqK-cv-UdK"; */
+"tqK-cv-UdK.text" = "Time";
